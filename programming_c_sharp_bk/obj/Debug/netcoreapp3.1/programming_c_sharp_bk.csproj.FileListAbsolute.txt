@@ -1,0 +1,14 @@
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\bin\Debug\netcoreapp3.1\programming_c_sharp_bk.exe
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\bin\Debug\netcoreapp3.1\programming_c_sharp_bk.deps.json
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\bin\Debug\netcoreapp3.1\programming_c_sharp_bk.runtimeconfig.json
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\bin\Debug\netcoreapp3.1\programming_c_sharp_bk.runtimeconfig.dev.json
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\bin\Debug\netcoreapp3.1\programming_c_sharp_bk.dll
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\bin\Debug\netcoreapp3.1\programming_c_sharp_bk.pdb
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\obj\Debug\netcoreapp3.1\programming_c_sharp_bk.csproj.AssemblyReference.cache
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\obj\Debug\netcoreapp3.1\programming_c_sharp_bk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\obj\Debug\netcoreapp3.1\programming_c_sharp_bk.AssemblyInfoInputs.cache
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\obj\Debug\netcoreapp3.1\programming_c_sharp_bk.AssemblyInfo.cs
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\obj\Debug\netcoreapp3.1\programming_c_sharp_bk.csproj.CoreCompileInputs.cache
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\obj\Debug\netcoreapp3.1\programming_c_sharp_bk.dll
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\obj\Debug\netcoreapp3.1\programming_c_sharp_bk.pdb
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\programming_c_sharp_bk\obj\Debug\netcoreapp3.1\programming_c_sharp_bk.genruntimeconfig.cache

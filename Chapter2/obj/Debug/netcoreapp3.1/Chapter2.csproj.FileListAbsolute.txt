@@ -1,0 +1,14 @@
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\bin\Debug\netcoreapp3.1\Chapter2.exe
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\bin\Debug\netcoreapp3.1\Chapter2.deps.json
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\bin\Debug\netcoreapp3.1\Chapter2.runtimeconfig.json
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\bin\Debug\netcoreapp3.1\Chapter2.runtimeconfig.dev.json
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\bin\Debug\netcoreapp3.1\Chapter2.dll
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\bin\Debug\netcoreapp3.1\Chapter2.pdb
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\obj\Debug\netcoreapp3.1\Chapter2.csproj.AssemblyReference.cache
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\obj\Debug\netcoreapp3.1\Chapter2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\obj\Debug\netcoreapp3.1\Chapter2.AssemblyInfoInputs.cache
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\obj\Debug\netcoreapp3.1\Chapter2.AssemblyInfo.cs
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\obj\Debug\netcoreapp3.1\Chapter2.csproj.CoreCompileInputs.cache
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\obj\Debug\netcoreapp3.1\Chapter2.dll
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\obj\Debug\netcoreapp3.1\Chapter2.pdb
+C:\Users\ruthwaiganjo\source\Repos\programming_c_sharp_bk\Chapter2\obj\Debug\netcoreapp3.1\Chapter2.genruntimeconfig.cache

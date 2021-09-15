@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "programming_c_sharp_bk/1.0.0": {
+        "runtime": {
+          "programming_c_sharp_bk.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "programming_c_sharp_bk/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
