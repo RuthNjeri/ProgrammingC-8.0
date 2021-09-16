@@ -32,7 +32,7 @@ namespace Chapter2
 
             int willNotWork;
             // Console.WriteLine(willNotWork);
-            
+
 
             // The compiler uses a highly pessimistic system(definite assignment rules) 
             // for determining whether a variable has a value yet.
@@ -63,7 +63,7 @@ namespace Chapter2
         static void SomeMethod()
         {
             int thisWillNotWork = 42;
-            
+
         }
 
         static void AnUncompilableMethod()
@@ -97,7 +97,8 @@ namespace Chapter2
             int someValue = 10;
             if (someValue > 100)
             {
-                // Causes an error because the variable has been used in the external block
+                // Causes an error because the variable has been used in the external block.
+                // It is not a scope issue but a conflicting names issue.
                 // int anotherValue = someValue - 100;
                 // Console.WriteLine(anotherValue);
             }
@@ -122,15 +123,29 @@ namespace Chapter2
                 }
 
                 // Imagine big chunks of code here
-
-
-               // int errorCount = 1; Compiler error
+                // Then this line of code: int errorCount = 1; Compiler error
                 if (problem3)
                 {
                     errorCount += 1;
                 }
             }
 
+            // LOCAL VARIABLE INSTANCES
+            // Each variable has a distinct identity.
+            // It is declared in exactly one place and goes out of scope at exactly one well-defined place.
+            // It doesn't usually correspond to a single storage location in memory.
+            // It is possible for multiple invocations of a single method to be in progress simultaneously: recursion, multithreading
+            // and asynchronous execution.
+
+            // Each time a method runs, it gets a distinct set of storage locations to hold the local variables' values
+            // enabling multiple threads to execute the same method simultaneously without problems.
+            // because each has it's own set of local variables.
+            // Likewise, each nested call gets its own set of locals that will not interfere with any of its callers.
+            // Each execution of a particular scope gets its own set of variables
+
+            // C# reuses storage locations when it can for optimization
+            // eg it will not allocate new memory for variables declared in the body of a loop for each iteration unless
+            // you put in a situation where it has no choice, but the effect is as though it allocated new space each time
         }
     }
 }

@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace HelloWorld.Tests
 {
-    [TestClass] // An attribute
+    [TestClass] // An attribute, used by the Microsoft UnitTest framework
     public class WhenProgramRuns
     {
         private string _consoleOutput;
@@ -24,7 +24,7 @@ namespace HelloWorld.Tests
 
         }
 
-        [TestMethod]// Tells the test runner which methods represents testsIRuntimeVariables
+        [TestMethod]// Tells the test runner which methods represents tests
         public void SaysHelloWorld()
         {
             Assert.AreEqual("Hello, world!", _consoleOutput);
