@@ -97,10 +97,11 @@ namespace Chapter2
             int someValue = 10;
             if (someValue > 100)
             {
+                // Console.WriteLine(anotherValue);
                 // Causes an error because the variable has been used in the external block.
                 // It is not a scope issue but a conflicting names issue.
                 // int anotherValue = someValue - 100;
-                // Console.WriteLine(anotherValue);
+                
             }
 
             int anotherValue = 123;
@@ -146,6 +147,52 @@ namespace Chapter2
             // C# reuses storage locations when it can for optimization
             // eg it will not allocate new memory for variables declared in the body of a loop for each iteration unless
             // you put in a situation where it has no choice, but the effect is as though it allocated new space each time
+
+            // C# does not guarantee where variables will live. Sometimes in a stack, but sometimes they don't.
+            // Sometimes variables need to outlive the method that declares them.
+            // They remain in scope for nested methods that will run as callbacks after the containing method has returned.
+
+
+            // STATEMENTS AND EXPRESSIONS
+            // A C# method is a sequence of statements describing actions that we want the method to perform.
+            // There are 13 categories of statements.
+
+            // Declaration Statements
+            int a = 19;
+            int b = 23;
+            int c;
+
+            // Expression statements
+            c = a + b;
+            Console.WriteLine(c);
+
+            // A loop is an iteration statement.
+            // if and switch are selection statements.
+            // A block is a kind of statement.
+
+            int d = 19;
+            int e = 23;
+            {
+                int f;
+                f = d + e;
+                Console.WriteLine(f);
+            }
+
+            // EXPRESSIONS
+            // Literals are the simplest expression.
+            // where we just write the value we want like "Hello", "42"
+            // A variable name can also be used as an expression.
+            // Expressions can involve operators, describing calculations or computations to be performed.
+            // Operators have fixed number of inputs called operands.
+            // Operands are also expressions. 2 + 2 is an expression containing two more expressions, 2 and 2.
+
+            // Expressions within expressions
+            double g = 1, h = 2.5, i = -3;
+
+            // Contains a parenthesized expression, which has a
+            double x = (-h + Math.Sqrt(h * h - 4 * g * i)) / 2 * g;
+            Console.WriteLine(x);
+
         }
     }
 }
