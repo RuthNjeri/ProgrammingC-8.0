@@ -51,6 +51,11 @@ namespace Chapter2
             // Writing from a variable is less restricted but there certain parts of the code where a given variable is
             // accessible
 
+            SomeMethod();
+            AnUncompilableMethod();
+            NestedScope();
+            VariableAmbiguity();
+
         }
 
         // SCOPE
@@ -192,6 +197,31 @@ namespace Chapter2
             // Contains a parenthesized expression, which has a
             double x = (-h + Math.Sqrt(h * h - 4 * g * i)) / 2 * g;
             Console.WriteLine(x);
+
+            // Method invocation is allowed to be an expression statement
+
+            Console.WriteLine("Hello world!");
+            Console.WriteLine(13 + 30);
+            Console.ReadKey();
+            Math.Sqrt(4);
+
+            // C# allows any method as an expression.
+            // Some expressions do not work as statements
+            //Console.ReadKey().KeyChar + "!";
+            //Math.Sqrt(4) + 3;
+
+            // Assignments are expressions
+            // They produce a value, the value being assigned to the variable.
+
+            int number;
+            Console.WriteLine(number = 23);
+            Console.WriteLine(number);
+
+            int j, k;
+            j = k = 0;
+
+            Console.WriteLine(j);
+            Console.WriteLine(k);
 
         }
     }
