@@ -51,10 +51,12 @@ namespace Chapter2
             // Writing from a variable is less restricted but there certain parts of the code where a given variable is
             // accessible
 
-            SomeMethod();
-            AnUncompilableMethod();
-            NestedScope();
-            VariableAmbiguity();
+            //SomeMethod();
+            //AnUncompilableMethod();
+            //NestedScope();
+            //VariableAmbiguity();
+            //Expressions();
+            OperandEvaluationOrder();
 
         }
 
@@ -182,7 +184,10 @@ namespace Chapter2
                 f = d + e;
                 Console.WriteLine(f);
             }
+        }
 
+        static void Expressions()
+        {
             // EXPRESSIONS
             // Literals are the simplest expression.
             // where we just write the value we want like "Hello", "42"
@@ -194,7 +199,7 @@ namespace Chapter2
             // Expressions within expressions
             double g = 1, h = 2.5, i = -3;
 
-            // Contains a parenthesized expression, which has a
+            // Contains a parenthesized expression
             double x = (-h + Math.Sqrt(h * h - 4 * g * i)) / 2 * g;
             Console.WriteLine(x);
 
@@ -223,6 +228,28 @@ namespace Chapter2
             Console.WriteLine(j);
             Console.WriteLine(k);
 
+        }
+
+        // Operand Evaluation Order
+        // The operands are evaluated in the order in which they occur in the source.
+        static int X(string label, int i)
+        {
+            Console.Write(label);
+            return i;
+        }
+
+        static void OperandEvaluationOrder()
+        {
+           // Output is abc4
+           Console.WriteLine(X("a" , 1) + X("b" , 1) + X("c" , 2));
+
+            // Nested order: Output is acdebf5
+            // The expression that invokes X with "b" begins its evaluation before those that invoke it with "c", "d", and "e",
+            // but it finishes its evaluation after them. And it’s that after ordering that we see in the output.
+            Console.WriteLine(
+               X("a", 1) +
+               X("b", (X("c", 1) + X("d", 1) + X("e", 1))) +
+               X("f", 1));
         }
     }
 }
